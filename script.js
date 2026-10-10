@@ -503,23 +503,23 @@ if (celebrateBtn && confettiBox) {
 (function(){
 
     const memoryImages = [
-        "photos/lamiya.jpg",
-        "photos/lamiya1.jpg",
-        "photos/lamiya2.jpg",
-        "photos/lamiya3.jpg",
-        "photos/lamiya4.jpg",
-        "photos/lamiya5.jpg",
-        "photos/lamiya6.jpg",
+        "lamiya.jpg",
+        "lamiya1.jpg",
+        "lamiya2.jpg",
+        "lamiya3.jpg",
+        "lamiya4.jpg",
+        "lamiya5.jpg",
+        "lamiya6.jpg",
 
-        "photos/family.jpg",
-        "photos/family1.jpg",
+        "family.jpg",
+        "family1.jpg",
 
-        "photos/sister.jpg",
-        "photos/sister1.jpg",
-        "photos/sister2.jpg",
+        "sister.jpg",
+        "sister1.jpg",
+        "sister2.jpg",
 
-        "photos/funny.jpg",
-        "photos/funny1.jpg"
+        "funny.jpg",
+        "funny1.jpg"
         
        
     ];
@@ -1259,14 +1259,14 @@ if (!window.favoriteShowcaseMediaReady) {
 
   // Change the extension here if your files are .webm or .ogg.
   const sleepFiles = [
-    "photos/sleep.mp4",
-    "photos/sleep1.mp4",
-    "photos/sleep2.mp4",
-    "photos/sleep3.mp4",
-    "photos/sleep4.mp4"
+    "sleep.mp4",
+    "sleep1.mp4",
+    "sleep2.mp4",
+    "sleep3.mp4",
+    "sleep4.mp4"
   ];
 
-  const musicFile = "photos/ruposh.mp4";
+  const musicFile = "/ruposh.mp4";
 
   let sleepIndex = 0;
   let sleepStarted = false;
@@ -1489,6 +1489,6 @@ if (!window.favoriteShowcaseMediaReady) {
 
   musicVideo.addEventListener("error", () => {
     musicTimerStatus.textContent =
-      "Music video unavailable. Check photos/ruposh.mp4.";
+      "Music video unavailable. Check ruposh.mp4.";
   });
 })();
